@@ -1,0 +1,312 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+
+.wpec-product-item {
+    display: block;
+    border: 1px solid #E7E9EB;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.wpec-product-item-thumbnail img {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+}
+
+.wpec-product-name {
+    float: left;
+}
+
+.wpec-product-name .wpec-entry-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+	margin: 0;
+}
+
+.wpec-product-description {
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.wpec-price-container {
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+/* Post Item */
+.wpec-post-item {
+    width: 90%;
+}
+.wpec-post-item-top {
+    display: block;
+}
+
+.wpec-post-thumbnail img {
+    width: 100%;
+    border: 1px solid #e8e4e3;
+    padding: 5px;
+}
+
+.wpec-post-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wpec-error-message{
+	color: red;
+	font-weight: bold;
+}
+
+/* Spinner */
+.wp-ppec-spinner {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.wp-ppec-spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #005ea6;
+    border-radius: 50%;
+    animation: wp-ppec-spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #005ea6 transparent transparent transparent;
+}
+.wp-ppec-spinner div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.wp-ppec-spinner div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.wp-ppec-spinner div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes wp-ppec-spinner {
+    0% {
+	transform: rotate(0deg);
+    }
+    100% {
+	transform: rotate(360deg);
+    }
+}
+
+.wp-ppec-overlay {
+    z-index: 10000;
+    display: none;
+    background-color: white;
+    width: 100%;
+    opacity: 0.7;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpec_billing_container,
+.wp-ppec-button-container {
+    @apply grid grid-cols-1 gap-6;
+}
+
+.wp-ppec-form-error-msg {
+    display: none;
+    color: red;
+}
+
+.wpec_product_coupon_info,
+.wpec_product_coupon_input_wrap {
+	@apply flex space-x-4;
+}
+
+.wpec_coupon_apply_btn {
+	--tw-bg-opacity: 50;
+	@apply inline-flex items-center py-2 px-4 border-blue-600 border-2 border-solid bg-transparent text-blue-600 rounded-md cursor-pointer font-semibold whitespace-nowrap;
+
+	&:hover {
+		@apply bg-none bg-blue-600 text-white border-transparent;
+	}
+
+	svg {
+		display: none;
+		animation: wpec-spinner 1s linear infinite;
+		@apply -ml-1 mr-3 h-5 w-5;
+		circle {
+			@apply opacity-25;
+		}
+		path {
+			@apply opacity-75;
+		}
+	}
+}
+
+.wpec_coupon_code {
+	@apply flex-grow px-4 py-2 rounded bg-yellow-100 border-dashed border-yellow-300;
+}
+
+.wpec_line_through {
+    text-decoration: line-through;
+}
+
+.wpec-modal-open,
+.wpec-place-order-btn {
+	@apply bg-blue-600 text-white font-bold py-2 px-4 rounded;
+	&:hover {
+		@apply bg-none bg-blue-700 text-white;
+	}
+}
+
+.wpec-modal {
+	@apply fixed w-full max-w-none h-full top-0 left-0 flex items-center justify-center font-sans;
+	z-index: 999999;
+}
+
+.wpec-modal-overlay {
+	@apply absolute w-full h-full bg-gray-900 opacity-50;
+}
+
+.wpec-modal-container {
+	@apply bg-white w-11/12 md:max-w-2xl mx-auto max-h-full rounded shadow-lg z-50 overflow-y-auto;
+}
+
+.wpec-modal-content {
+	@apply py-4 text-left px-6;
+
+}
+
+.wpec-modal-content-title {
+	@apply flex justify-between items-center pb-3;
+	p {
+		@apply text-2xl font-bold;
+	}
+}
+
+.wpec-modal-close {
+	@apply cursor-pointer z-50;
+	svg {
+		@apply fill-current text-black;
+	}
+}
+
+.wpec-modal-item-info-wrap {
+	@apply text-base pb-3 flex space-x-4;
+}
+
+.wpec-modal-item-thumbnail {
+	@apply flex-none;
+	img {
+		@apply rounded-md;
+	}
+}
+
+.wpec-modal-item-excerpt {
+	@apply hidden md:block;
+}
+
+.wpec-opacity-0 {
+	@apply opacity-0;
+}
+
+.wpec-pointer-events-none {
+	@apply pointer-events-none;
+}
+
+.wpec_billing_address_container,
+.wpec_shipping_address_container,
+.wpec_billing_user_info,
+.wpec-product-variations-wrapper {
+	@apply grid grid-cols-1 sm:grid-cols-2 gap-6;
+
+	label,
+	&>div:last-child:nth-child(odd) {
+		@apply sm:col-span-2;
+	}
+}
+
+.wp-ppec-shortcode-container {
+	label.wpec_billing_label,
+	label.wpec_shipping_label {
+		@apply text-lg;
+	}
+}
+
+.wp-ppec-shortcode-container {
+	@apply grid grid-cols-1 gap-6 text-base;
+	@import 'forms';
+}
+
+/* Small Spinner */
+@keyframes wpec-spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.wpec-custom-number-input {
+	@apply flex flex-row h-10 w-36 rounded-lg relative bg-transparent mt-1;
+
+	button {
+		@apply bg-white border border-gray-500 border-solid h-full rounded-r-none cursor-pointer outline-none p-2;
+		&:hover {
+			@apply bg-none bg-white;
+		}
+		&:first-of-type {
+			@apply rounded-md rounded-r-none border-r-0;
+		}
+		&:last-of-type {
+			@apply rounded-md rounded-l-none border-l-0;
+		}
+
+		&:focus {
+		  outline: none !important;
+		}
+
+		span {
+			@apply m-auto text-2xl leading-6 font-thin;
+		}
+	}
+
+	input[type='number'] {
+		@apply m-0 outline-none focus:outline-none text-center w-full flex items-center outline-none rounded-none;
+		-moz-appearance:textfield;
+		&::-webkit-inner-spin-button,
+		&::-webkit-outer-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		&:focus {
+			outline: none !important;
+		}
+	}
+
+	.wp-ppec-form-error-msg {
+		@apply flex-none;
+	}
+}
+
+.wpec_address_wrap {
+	@apply grid grid-cols-1;
+	&.shipping_enabled {
+		@apply sm:grid-cols-2 gap-6;
+		.wpec_billing_address_container,
+		.wpec_shipping_address_container {
+			@apply sm:grid-cols-1;
+			label {
+				@apply sm:col-span-1;
+			}
+		}
+		.wpec_product_shipping_handle {
+			@apply sm:col-span-2;
+		}
+	}
+
+}

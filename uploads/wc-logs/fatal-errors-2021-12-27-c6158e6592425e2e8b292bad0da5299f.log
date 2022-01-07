@@ -1,0 +1,88 @@
+2021-12-27T13:30:42+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:51
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admi in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 51
+
+2021-12-27T13:32:38+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:51
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admi in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 51
+
+2021-12-27T13:33:08+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:51
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admi in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 51
+
+2021-12-27T13:34:48+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:52
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admin/Loc in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 52
+
+2021-12-27T13:37:57+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:52
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admin/Loc in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 52
+
+2021-12-27T13:39:35+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:52
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admin/Loc in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 52
+
+2021-12-27T13:43:19+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:52
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admin/Loc in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 52
+
+2021-12-27T13:44:52+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php:52
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(303): techiepress_cf7_data(Array)
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/contact-form-cfdb7/contact-form-cfdb-7.php(173): do_action('cfdb7_before_sa...', Array)
+#4 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(305): cfdb7_before_send_mail(Object(WPCF7_ContactForm))
+#5 /Users/admin/Local Sites/testapi/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/admin/Local Sites/testapi/app/public/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#7 /Users/admin/Loc in /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/cf7-trap-api/cf7-trap-api.php on line 52
+

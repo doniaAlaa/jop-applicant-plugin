@@ -1,0 +1,32 @@
+2021-12-18T17:17:05+00:00 CRITICAL Uncaught Error: Call to a member function name() on array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php:15
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(202): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey3('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-base in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php on line 15
+
+2021-12-18T18:36:24+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:36:59+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:37:03+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:37:22+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:37:25+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:37:30+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:37:33+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:38:52+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:38:54+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:39:27+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+
+2021-12-18T18:39:30+00:00 CRITICAL require_once(): Failed opening required '/Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 202
+

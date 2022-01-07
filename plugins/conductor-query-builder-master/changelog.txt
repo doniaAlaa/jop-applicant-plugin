@@ -1,0 +1,97 @@
+==========================================
+Plugin: Conductor Query Builder Add-On
+Author: Slocum Themes/Slocum Design Studio
+Author URI: https://conductorplugin.com/
+Current Version: 1.0.6
+==========================================
+
+
+1.0.6 // May 20 2019
+--------------------
+- Introduce query tags
+- Fixed a bug where adjusting query arguments in the advanced query builder did not properly trigger
+  a preview query event in some cases
+- Added logic to allow [FROM] parameter option elements to have configuration data via the "data-config"
+  HTML5 attribute
+
+1.0.5 // February 01 2019
+-------------------------
+- Added Conductor Gutenberg block
+- Fixed a bug where scripts and styles on the front-end weren't enqueued properly when a Conductor Widget
+  wasn't active (in use)
+- Adjusted logic to check for the Conductor capability (using Conductor::$capability)
+- Added Conductor_Query_Builder() instance as a new argument on the "conductor_query_builder_postmeta_form_limit" filter
+- Fixed a bug where the maximum number of posts (Conductor Widget "max_num_posts" setting) was set to the posts per page
+  option (which is the Conductor Widget default) when the query builder mode is set to "advanced" which resulted in
+  incorrect pagination after the number posts per page was met
+-- Note: To limit the maximum number of posts displayed when the query builder mode is set to "advanced", use the
+   "Maximum Number of Posts" parameter in the "Limit" clause group
+
+1.0.4 // May 02 2018
+--------------------
+- Adjusted logic to reset query builder settings to default values (use the "data-default-value" and "data-default"
+  HTML attribute values instead of Conductor Widget defaults)
+- Fixed a bug where FROM query argument action buttons were hidden in the shortcode query builder in some cases
+- Fixed possible PHP notices that occurred when clause group data was expected to be an array but it was actually a string
+- Fixed a possible fatal PHP error due to the removal of all widgets by Yoast SEO
+- Adjusted logic to display "Edit Query" buttons for query builder front-end displays
+- Added logic to interact with the Conductor REST API (adjust query arguments, widget IDs, etc...)
+- Adjusted logic to determine if meta in memory (browser session) is empty
+- Added logic to preview the current query on the "keyup" event on query builder input elements
+- Added logic to utilize the "conductor-query-builder-skip-preview" attribute when attempting to preview a query
+- Added logic to skip previewing a query if the shortcode query builder was active
+- Adjusted _.debounce() timeout for previewing queries (changed from 300ms to 400ms)
+- Added logic to abort the current query builder preview AJAX request when attempting a new preview of a query
+- Added logic to remove the clause action buttons view from memory if it existed when removing the clause group view
+- Added "conductor_query_builder_save_post_before" and "conductor_query_builder_save_post_after" actions
+- Added "conductor_query_builder_preview_query_before" and "conductor_query_builder_preview_query_after" actions
+- Added logic to determine the maximum number of pages (for pagination) on query builder queries
+- Adjusted logic to convert simple query builder data to a single array to account for multidimensional array settings
+- Adjusted Beaver Builder logic to account for Beaver Builder 2.0+
+- Adjusted query builder "copy to clipboard" tooltip CSS
+
+1.0.3 // May 22 2017
+--------------------
+- Beaver Builder
+-- Introduced Conductor Query Builder Beaver Builder module
+- Query Builder
+-- Introduced conductor_query() function to render a Conductor Query
+-- Introduced a "Functions" meta box to allow developers to utilize the new conductor_query() function
+-- Added logic to allow for a Conductor Widget instance (settings) to be passed into the query builder on load
+-- Added logic to add a "no title" label to posts and Conductor Queries that did not have post titles
+-- Added logic to switch the Conductor Widget feature type to "many" in the advanced query builder
+-- Fixed a bug where operators select elements were not updated when different parameters were selected
+-- Fixed a bug where the order of the values select elements were not honored
+-- Added logic to ensure AYS ("Are You Sure") message appeared when simple query builder mode was selected
+   and the shortcode modal window was closed but there were query arguments that were changed since opening
+-- Fixed a bug where creating a query in the shortcode query builder modal would not send all selected
+   values within a sub-clause
+-- Fixed a bug where the shortcode modal version of the query builder automatically selected the first operator
+   when a parameter was selected
+-- Fixed a bug that prevented scrolling in the shortcode modal while building a query
+-- Fixed display issues due to Yoast SEO CSS being inherited in the shortcode modal
+- General
+-- Fixed a possible fatal PHP error that occurred on deactivation of Conductor
+-- Fixed a bug where the current paged value was not used correctly in Conductor Query Builder queries
+-- Adjusted Conductor_Query_Builder::init() priority to ensure it ran late; Thanks Karen Bennett
+-- Changed text domain to "conductor-query-builder"
+-- Added logic to use helper function for plugin file instead of PHP magic constant in deactivation logic
+
+1.0.2 // March 03 2017
+----------------------
+- Fixed a bug where other versions of Select2 interfered with query builder Select2 logic; Thanks Ehab El-Zanaty
+- Fixed a bug where The Loop returned no results
+- Adjusted logic to enqueue scripts to ensure most scripts were enqueued in the footer
+- Fixed display of "spinner" icons in various areas
+
+1.0.1 // February 20 2017
+-------------------------
+- Added Select2 to existing query dropdown element in shortcode insert modal
+- Fixed a bug where Conductor Widget stylesheets were not enqueued when a Conductor Widget
+  was not active but a Conductor Query Builder Widget was active or the [conductor] shortcode
+  was used in content for the current request
+- Adjusted logic to reset shortcode insert modal values
+
+1.0.0 // January 27 2017
+------------------------
+- Initial Release

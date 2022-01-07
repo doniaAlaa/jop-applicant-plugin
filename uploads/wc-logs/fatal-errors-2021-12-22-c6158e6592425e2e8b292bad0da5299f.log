@@ -1,0 +1,30 @@
+2021-12-22T18:53:07+00:00 CRITICAL Uncaught Error: Function name must be a string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php:12
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(202): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey3('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(581):  in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php on line 12
+
+2021-12-22T19:07:10+00:00 CRITICAL Uncaught Error: Function name must be a string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php:12
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(202): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey3('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(581):  in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php on line 12
+
+2021-12-22T19:07:38+00:00 CRITICAL Uncaught Error: Function name must be a string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php:12
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(202): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey3('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(581):  in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/landing-page.php on line 12
+

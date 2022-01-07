@@ -1,0 +1,2 @@
+2021-12-25T14:45:16+00:00 CRITICAL Cannot redeclare wpc_elementor_shortcodey8() (previously declared in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php:224) in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php on line 229
+

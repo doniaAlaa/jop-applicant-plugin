@@ -1,0 +1,140 @@
+2021-12-26T14:53:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:29
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-bas in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 29
+
+2021-12-26T14:54:30+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:29
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-bas in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 29
+
+2021-12-26T14:54:37+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:29
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-bas in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 29
+
+2021-12-26T15:02:59+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:29
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 29
+
+2021-12-26T15:09:09+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:28
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-bas in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 28
+
+2021-12-26T15:09:30+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:28
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-bas in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 28
+
+2021-12-26T15:10:23+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:17
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 17
+
+2021-12-26T15:10:58+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:15
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 15
+
+2021-12-26T20:35:03+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:39
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 39
+
+2021-12-26T20:35:33+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:39
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 39
+
+2021-12-26T20:36:02+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:37
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 37
+
+2021-12-26T20:38:42+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:37
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 37
+
+2021-12-26T20:39:02+00:00 CRITICAL Uncaught Error: Call to undefined function debug_to_console() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:38
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-b in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 38
+
+2021-12-26T21:22:08+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php:38
+Stack trace:
+#0 /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/functions.php(219): require_once()
+#1 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(356): wpc_elementor_shortcodey7('', '', 'my_elementor_ph...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/admin/Local Sites/testapi/app/public/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ele...', 'do_shortcode_ta...', '[my_elementor_p...')
+#4 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[my_elementor_p...')
+#5 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2154): Elementor\Widget_Shortcode->render()
+#6 /Users/admin/Local Sites/testapi/app/public/wp-content/plugins/elementor/includes/base/widget-base.p in /Users/admin/Local Sites/testapi/app/public/wp-content/themes/astra/store-test2.php on line 38
+

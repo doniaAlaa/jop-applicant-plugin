@@ -1,0 +1,179 @@
+{
+    "packages": [
+        {
+            "name": "afragen/wp-dependency-installer",
+            "version": "4.2.1",
+            "version_normalized": "4.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/wp-dependency-installer.git",
+                "reference": "8eb2bbb360d7f520c407d936ba1e2bb3b6b3b5a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/wp-dependency-installer/zipball/8eb2bbb360d7f520c407d936ba1e2bb3b6b3b5a7",
+                "reference": "8eb2bbb360d7f520c407d936ba1e2bb3b6b3b5a7",
+                "shasum": ""
+            },
+            "require": {
+                "afragen/wp-dismiss-notice": "*",
+                "php": ">=5.6"
+            },
+            "time": "2021-09-24T20:12:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "wp-dependency-installer.php",
+                    "wp-dependency-installer-skin.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Matt Gibbs",
+                    "homepage": "https://facetwp.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Raruto",
+                    "homepage": "https://raruto.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library that helps WordPress plugin dependency management.",
+            "support": {
+                "issues": "https://github.com/afragen/wp-dependency-installer/issues",
+                "source": "https://github.com/afragen/wp-dependency-installer"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/afragen",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../afragen/wp-dependency-installer"
+        },
+        {
+            "name": "afragen/wp-dismiss-notice",
+            "version": "0.2.0",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/wp-dismiss-notice.git",
+                "reference": "94946fcb6d46dd0387f411ed5b4b7b66b8421fef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/wp-dismiss-notice/zipball/94946fcb6d46dd0387f411ed5b4b7b66b8421fef",
+                "reference": "94946fcb6d46dd0387f411ed5b4b7b66b8421fef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2021-09-23T21:04:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "wp-dismiss-notice.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for time dismissible WordPress admin notices.",
+            "support": {
+                "issues": "https://github.com/afragen/wp-dismiss-notice/issues",
+                "source": "https://github.com/afragen/wp-dismiss-notice"
+            },
+            "install-path": "../afragen/wp-dismiss-notice"
+        },
+        {
+            "name": "norcross/debug-quick-look",
+            "version": "0.1.7",
+            "version_normalized": "0.1.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afragen/debug-quick-look/archive/vendor.zip"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "debug-quick-look.php"
+                ]
+            },
+            "install-path": "../norcross/debug-quick-look"
+        },
+        {
+            "name": "wp-cli/wp-config-transformer",
+            "version": "v1.2.8",
+            "version_normalized": "1.2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/wp-config-transformer.git",
+                "reference": "0bb2b9162c38ca72370380aea11dc06e431e13a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/0bb2b9162c38ca72370380aea11dc06e431e13a5",
+                "reference": "0bb2b9162c38ca72370380aea11dc06e431e13a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.29"
+            },
+            "require-dev": {
+                "composer/composer": ">=1.5.6 <1.7.0 || ^1.7.1 || ^2.0.0",
+                "phpunit/phpunit": "^6.5.5 || ^7.0.0",
+                "wp-coding-standards/wpcs": "^0.14.0 || ^1.0.0 || ^2.0.0"
+            },
+            "time": "2020-11-12T08:08:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/WPConfigTransformer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frankie Jarrett",
+                    "email": "fjarrett@gmail.com"
+                }
+            ],
+            "description": "Programmatically edit a wp-config.php file.",
+            "support": {
+                "issues": "https://github.com/wp-cli/wp-config-transformer/issues",
+                "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.2.8"
+            },
+            "install-path": "../wp-cli/wp-config-transformer"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
